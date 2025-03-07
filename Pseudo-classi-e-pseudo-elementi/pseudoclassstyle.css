@@ -1,0 +1,30 @@
+.p1::first-letter {
+	float: left;
+    color: darkred;
+    border: 3px ridge darkgoldenrod;
+    padding: 16px;
+    background-color: gold;
+    margin: 8px;
+}
+
+blockquote::after, blockquote::before {
+	content:"\"";
+	background-color: rgba(0, 0, 0, .12);
+	padding: 8px;
+}
+
+a:hover {
+	color: rgb(0, 0, 0);
+	text-decoration: rgb(242, 255, 0)	;
+}
+
+a:active {
+	color: darkred;
+	text-decoration: green	;
+}
+
+a:visited {
+	color: rgb(21, 0, 139);
+	text-decoration: rgb(255, 255, 255)	;
+}
+

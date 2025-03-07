@@ -1,0 +1,51 @@
+.box{
+    border-radius: 20%;
+    padding: 5%;
+    box-shadow: 10px 10px 40px;
+    box-sizing: border-box;
+    margin: 2% 30%;
+}
+
+table {
+    border: 1px color(#263238);
+
+}
+
+caption {
+    color: #263238;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+thead {
+    background-color: #455a64;
+    color: white;
+    font-weight: 700;
+}
+
+tr:nth-child(even) {
+    background-color: #eceff1;
+
+}
+
+tr:nth-child(odd){
+    background-color: #b0bec5;
+
+}
+
+tfoot{
+    background-color: #78909c;
+    font-weight: 800;
+}
+
+table tr td:nth-child(2){
+    color: #00ff00;
+    text-align: right;
+}
+
+table tr td:nth-child(3){
+    color: #7f0000;
+    text-align: right;
+}
+
