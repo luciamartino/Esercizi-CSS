@@ -1,0 +1,66 @@
+body{
+    font-family: Calibri, sans-serif;
+    font-size: 30px;
+
+}
+
+.navbar p{
+    margin: 0;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+    padding: 20px;
+    background-color: #212529;
+}
+
+/*.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}*/
+
+li{
+    display: inline;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+select{
+    background-color: #212529;
+    border: none;
+    color: grey;
+    font-size: 25px;
+
+}
+
+button{
+    color: #3F8557;
+    border-color: #3F8557;
+    border-radius: 10%;
+    font-size: 30px;
+    background-color: #212529;
+    
+}
+
+input{
+    font-size: 30px;
+
+}
+
+.searchbar{
+    /*font-size: 30px; */ 
+    position: absolute;
+    display: inline;
+    right: 20px;
+}

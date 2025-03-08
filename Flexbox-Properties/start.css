@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    /*width: 100vw;
+    height: 100vh;*/
+    
+}
+
+#yellow {
+    order: 1;
+}
+
+#red {
+    order: 2;
+}
+
+#green {
+    order: 3;
+    /*flex-shrink: 1 70px;*/
+}
+
+#orange {
+    order: 4;
+    flex: 2 200px;
+}
+
+#blue {
+    order:5;
+}
